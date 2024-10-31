@@ -10,7 +10,7 @@ class Window:
         self.window = Tk()
         self.window.geometry('854x480')
         self.window.resizable(False, False)
-        self.window.title("Danov Shell Emulator")
+        self.window.title("Kudryavtsev Shell Emulator")
 
         self.console = Text(width=105, height=25, borderwidth=1, relief='solid')
         self.console.configure(state=tk.DISABLED)
